@@ -10,7 +10,7 @@ export default moment.defineLocale('nb', {
     monthsShort : 'jan._feb._mars_april_mai_juni_juli_aug._sep._okt._nov._des.'.split('_'),
     monthsParseExact : true,
     weekdays : 'søndag_mandag_tirsdag_onsdag_torsdag_fredag_lørdag'.split('_'),
-    weekdaysShort : 'sø._ma._ti._on._to._fr._lø.'.split('_'),
+    weekdaysShort : 'søn._man._tir._ons._tor._fre._lør.'.split('_'),
     weekdaysMin : 'sø_ma_ti_on_to_fr_lø'.split('_'),
     weekdaysParseExact : true,
     longDateFormat : {
@@ -51,4 +51,3 @@ export default moment.defineLocale('nb', {
         doy : 4  // The week that contains Jan 4th is the first week of the year.
     }
 });
-
